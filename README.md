@@ -34,3 +34,10 @@ Capper's Delight is an Electron UI for youtube-dl. The intent is to make it easi
 * *youtube-dl* : you'll need to have this installed on your system. If you don't know how to install it and run it from a CLI, this is a non-starter. You won't find instructions here. Perhaps a Google search may be in order?
 * *ffmpeg* : this does the heavy lifting of capturing, downloading, and encoding files. 
 
+## Running it
+
+From your favorite terminal, navigate to the cappers-delight path and enter:
+    npm start
+
+This kicks things off and runs the app. You're also free to build and package it as an app for your OS
+
