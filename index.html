@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Capper's Delight</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="./css/app.css">
+    <link href="./css/fa/all.css" rel="stylesheet">
+    <script type="text/javascript" src="./js/ui.js"></script>
+</head>
+
+<body>
+    <div class="flex-wrap">
+        <div id="app-wrapper" class="flex-wrap-rows">
+            <div id="app-control">
+                <div id="settings" style="display:none;">
+                    <div class="settings-group">
+                        <label for="save-path-label">Target Directory</label>
+                        <input type="text" id="save-path-label" disabled="disabled" /> <button id="save-path"><i
+                                class="fas fa-folder"></i></button>
+                    </div>
+                </div>
+                <div id="settings-button-wrap">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <div id="url-wrap">
+                    <div>
+                        <label>Bookmarks</label>
+                        <select name="" id="bookmarks"></select> <button id="browser-go"><i
+                                class="fas fa-arrow-circle-right"></i></button>
+                        <button id="bookmark-delete"><i class="fas fa-trash"></i></button>
+                    </div>
+                    <div>
+                        <label for="url">Video URL</label>
+                        <input type="text" id="vid-url" /> <button id="add-vid-url"><i
+                                class="fas fa-download"></i></button>
+                    </div>
+                </div>
+                <div id="dl-list"></div>
+                <div id="screener-controls">
+                    <i class="fa fa-times-circle unload"></i>
+                    <i class="fa fa-eye-slash toggle"></i>
+                    <i class="fa fa-external-link-square-alt popout"></i>
+                </div>
+            </div>
+            <div class="splitter horiz"></div>
+            <div id="screen-base"></div>
+        </div>
+        <div class="splitter vert"></div>
+        <div id="browser-nav">
+            <div class="container">
+                <div id="nav-controls">
+                    <i class="fa fa-chevron-circle-left disabled" id="btn-back"></i>
+                    <i class="fa fa-chevron-circle-right disabled" id="btn-forward"></i>
+                    <i class="fa fa-sync-alt" id="btn-reload"></i>
+                </div>
+                <input type="text" id="browser-url">
+                <i class="fa fa-bookmark" id="btn-bookmark"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
