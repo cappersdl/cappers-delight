@@ -37,6 +37,7 @@ Capper's Delight is an Electron UI for youtube-dl. The intent is to make it easi
 ## Running it
 
 From your favorite terminal, navigate to the cappers-delight path and enter:
+    
     npm start
 
 This kicks things off and runs the app. You're also free to build and package it as an app for your OS
