@@ -29,4 +29,8 @@ Capper's Delight is an Electron UI for youtube-dl. The intent is to make it easi
 4. Any link clicked or opened in the screener will be added to the Video URL field. Clicking the download button adds this video to the download queue.
 5. Optionally, if you have a direct video link, you can enter it into this field for ad-hoc downlods.
 
+## Requirements
+
+* *youtube-dl* : you'll need to have this installed on your system. If you don't know how to install it and run it from a CLI, this is a non-starter. You won't find instructions here. Perhaps a Google search may be in order?
+* *ffmpeg* : this does the heavy lifting of capturing, downloading, and encoding files. 
 
