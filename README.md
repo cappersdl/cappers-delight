@@ -4,21 +4,21 @@ Capper's Delight is an Electron UI for youtube-dl. The intent is to make it easi
 
 ## What it does
 
-    * The app supports adding bookmarks to your favorite sites which will remain unspoken
-    * Allows you to click a video link to preview it before capturing
-    * Allows you to select a directory where downloads are saved
-    * Allows you to add the video to a queue
-        - Downloads are added to a scrollable list
-        - Downloads can be cancelled
-        - While being downloaded, videos can be opened in the OS default viewer
-        - Completed or cancelled download files can be deleted
-    * Supports any source supported by youtube-dl
+* The app supports adding bookmarks to your favorite sites which will remain unspoken
+* Allows you to click a video link to preview it before capturing
+* Allows you to select a directory where downloads are saved
+* Allows you to add the video to a queue
+  - Downloads are added to a scrollable list
+  - Downloads can be cancelled
+  - While being downloaded, videos can be opened in the OS default viewer
+  - Completed or cancelled download files can be deleted
+* Supports any source supported by youtube-dl
 
 ## What it doesn't do
 
-    * Expose all of the configuration options available for youtube-dl. It's meant to be a simple, but effective UI
-    * Protect you from your legal obligations to only download what you're allowed to
-    * Make you a sandwich
+* Expose all of the configuration options available for youtube-dl. It's meant to be a simple, but effective UI
+* Protect you from your legal obligations to only download what you're allowed to
+* Make you a sandwich
 
 
 ## Usage
